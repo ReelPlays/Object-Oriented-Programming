@@ -1,0 +1,40 @@
+.login-root {
+    -fx-background-color: #f0f2f5;
+    -fx-padding: 20px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.login-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-padding-bottom: 10px;
+}
+
+.text-field, .password-field {
+    -fx-pref-width: 250px;
+    -fx-padding: 10px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.login-btn, .register-btn {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.login-btn:hover, .register-btn:hover {
+    -fx-background-color: #0056b3;
+}
+
+.login-message {
+    -fx-text-fill: red;
+    -fx-font-size: 12px;
+    -fx-padding-top: 10px;
+}

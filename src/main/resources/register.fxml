@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.example.controller.RegisterController"
+      alignment="CENTER"
+      spacing="15"
+      prefWidth="350"
+      prefHeight="300"
+      styleClass="login-root" stylesheets="@style.css">
+
+    <Label text="Register" styleClass="login-title"/>
+
+    <TextField fx:id="txtUsername" promptText="Username" styleClass="text-field"/>
+    <PasswordField fx:id="txtPassword" promptText="Password" styleClass="password-field"/>
+    <PasswordField fx:id="txtConfirmPassword" promptText="Confirm Password" styleClass="password-field"/>
+
+    <Button text="Register" onAction="#handleRegister" styleClass="login-btn"/>
+    <Label fx:id="lblStatus" styleClass="login-message"/>
+</VBox>
